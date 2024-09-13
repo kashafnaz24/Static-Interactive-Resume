@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume-container">
+        <div class="sidebar">
+            <img src="./assets/images.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="career-objective">
+                <h3>Career Objective</h3>
+                <p>"To seek opportunities that allow me to enhance my skills in web development and emerging technologies like Web 3.0 while contributing to the success of an organization. I aim to apply my knowledge in HTML, CSS, JavaScript, TypeScript, MS Word, MS PowerPoint, and Web 3.0 in a challenging environment where I can continue to grow and learn. By including Web 3.0, I demonstrate that I am keeping up with modern and future trends in web technology, which is a great asset to any organization."</p>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <h1><em>Static Interactive Resume</em></h1>
+            <div class="personal-info">
+                <h3>Personal Information</h3>
+                <p><strong>Name:</strong> Kashaf Naz</p>
+                <p><strong>Phone:</strong>0324-2005750</p>
+                <p><strong>Email:</strong> <a href="mailto:kashafnazk389@gmail.com">kashafnazk389@gmail.com</a></p>
+                <p><strong>Github:</strong> <a href="https://github.com/kashafnaz24">https://github.com/kashafnaz24</a></p>
+            </div>
+
+            <div class="education">
+                <h3>Education</h3>
+                <p><strong>Intermediate (In Progress):</strong> Pre-Medical </p>
+                <p><strong>Institute:</strong> Shaheed e Millat Gov.t degree college for Women, Board of Intermediate Education Karachi</p>
+                <p><strong>Expected Year of Completion:</strong> 2025</p>
+                <p><strong>Matriculation:</strong> Science from Board of secondary Education Karachi</p>
+                <p><strong>Year of Completion:</strong> 2023</p>
+            </div>
+                
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul id="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>Microsoft Word</li>
+                    <li>Microsoft PowerPoint</li>
+                </ul>
+            </div>
+            
+            <!-- Button to Show More Information -->
+            <button id="moreInfoBtn" onclick="buttonrun()"><b>More Information</b></button>
+
+            <!-- Hidden Section for Experience and Certifications -->
+            <div id="moreInfo" class="hidden">
+                <h3>Experience</h3>
+                <p>I am currently studying, so I don't have professional work experience yet. However, I am continuously improving my skills in web development and programming.</p>
+
+                <h3>Certifications</h3>
+                <p>No formal certifications yet, but I am working on gaining certifications in web development, including HTML, CSS, JavaScript, and Web 3.0 technologies.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
