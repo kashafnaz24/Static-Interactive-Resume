@@ -1,11 +1,10 @@
 
-const moreInfo = document.getElementById("moreInfo") as HTMLElement;
-const button = document.getElementById("moreInfoBtn") as HTMLButtonElement;
+ const button = document.getElementById("moreInfoBtn") as HTMLButtonElement;
+ const moreInfo = document.getElementById("moreInfo") as HTMLElement;
 
-function buttonrun() {
-    // Check if the moreInfo section is hidden
-    if (moreInfo.style.display === "none" || moreInfo.style.display === "") {
-        moreInfo.style.display = "block";  // Show the hidden info
-        button.style.display = "none";     // Hide the button
+ function buttonrun() {
+     if (moreInfo.style.display === "none") {
+         moreInfo.style.display = "block";  
+         button.style.display = "none";  
     }
-}
+ }
