@@ -16,6 +16,8 @@ body {
 .resume-container {
     display: flex;
     width: 900px;
+    border: #fff;
+    margin: 20px;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
@@ -57,9 +59,9 @@ h3 {
     text-align: center;
     border: 2px solid #457b9d ;
     border-radius: 10px;
-    box-shadow: 0 0 15px #457b9d ;
+    box-shadow: 5px 5px 15px #457b9d ;
     color: #457b9d;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 10px;
 }
 p{
@@ -76,14 +78,20 @@ li{
     list-style-type:disc;
 }
 button{
-    border: 2px solid #457b9d;
+    border: 2px solid black;
     color: black;
     border-radius: 5px;
-    margin: 5px;
-    padding: 5px;
+    background-color: #457b9d;
+    font-weight: 800;
+    font-size: 15px;
+    margin: 10px;
+    margin-left: 15px;
+    width: 150px;
+    height: 40px;
 }
 button:hover{
-    box-shadow: 0 0 15px #457b9d;
+    box-shadow: 5px 5px 15px #457b9d;
+    padding: 8px;
 }
 
 .hidden {
